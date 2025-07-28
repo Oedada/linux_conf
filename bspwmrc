@@ -1,0 +1,37 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+pgrep -x picom > /dev/null || picom --config ~/.config/picom/picom.conf &
+redshift > /dev/null &
+polybar super > /dev/null &
+firefox > /dev/null &
+nekoray > /dev/null &
+keepassxc > /dev/null &
+blueman-manager > /dev/null &
+/home/oedada/bin/Telegram > /dev/null &
+obsidian > /dev/null &
+greenclip daemon &
+feh --bg-center $(cat /home/oedada/Pictures/wallpapers/last_wallpaper) > /dev/null &
+konsole &
+iwctl --passphrase 1223334444 station wlan0 connect Gesha_wifi > /dev/null &  
+
+bspc config normal_border_color        "#4aa858"
+bspc config focused_border_color       "#39FF14"
+
+bspc monitor -d 1 2 3 4 5 6 7
+
+bspc config border_width         2
+bspc config window_gap          10
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a firefox desktop=^3
+bspc rule -a nekoray desktop=^7
+bspc rule -a KeePassXC desktop=^7
+bspc rule -a Blueman-manager desktop=^7
+bspc rule -a TelegramDesktop desktop=^4
+bspc rule -a obsidian desktop=^2
+

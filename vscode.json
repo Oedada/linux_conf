@@ -1,0 +1,114 @@
+{
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "cSpell.blockCheckingWhenLineLengthGreaterThan": 10000000000,
+    "git.enableSmartCommit": true,
+    "C_Cpp.default.compilerPath": "",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.enablePersistentSessions": false,
+    "editor.accessibilitySupport": "off",
+    "python.defaultInterpreterPath": ".venv",
+    "python.createEnvironment.trigger": "off",
+    // Установить собственный шрифт и его размеры
+    "editor.fontFamily": "'JetBrains Mono', 'bold', bold",
+    "editor.fontSize": 17,
+    // Установить иконки и настроить их
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.indent": 14,
+    // Запрашивать подтверждение на удаление и Drag&Drop
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": true,
+    // Настройка excalidraw по дефолту
+    "excalidraw.workspaceLibraryPath": ".",
+    "excalidraw.theme": "dark",
+    // Убираем виджет справа для скролла
+    "editor.scrollbar.horizontal": "hidden",
+    //"editor.scrollbar.vertical": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.matchBrackets": "never",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+    },
+  "python.linting.enabled": true,
+  "python.linting.ruffEnabled": true,
+  "python.linting.ruffPath": "ruff",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+    },
+    "ruff.nativeServer": "on",
+
+    // Убрать полный путь к файлу сверху
+    "breadcrumbs.enabled": false,
+    // Убрать статус бар снизу
+    "workbench.statusBar.visible": false,
+    // Не показывать все открытые вкладки
+    // "workbench.editor.showTabs": "single",
+    // Убрать панель слева с git, run, debug, plugins
+    "workbench.activityBar.location": "hidden",
+    // Установить дефолтный размер для редактора
+    "window.zoomLevel": 0,
+    // Настройка курсора
+    "editor.multiCursorModifier": "alt",
+    "editor.cursorBlinking": "solid",
+    // Отключаем панель управления окном
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": true,
+    // Отключаем лишние декорации и метки
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    // Настройка плагина todo
+    "todohighlight.isEnable": true,
+    // По дефолту открывать пустую страницу
+    "workbench.startupEditor": "none",
+    // Установить длину одного tab
+    "editor.tabSize": 4,
+    // Добавлять одну пустую строку в конец файла чтобы избежать ошибоки
+    "files.insertFinalNewline": true,
+    // Отключаем окно с помощью для новичков
+    "workbench.tips.enabled": false,
+    // Отключаем прилипание заголовка в деревьях
+    "workbench.tree.enableStickyScroll": true,
+    // Убирает вертикальные линии отступов в дереве файлов
+    "workbench.tree.renderIndentGuides": "onHover",
+    // Всегда использовать те отступы, которые заданы вручную (tabSize, insertSpaces и т.п.), а не угадывать.
+    "editor.detectIndentation": true,
+    // Убрать значок для сворачивания кода
+    "editor.showFoldingControls": "mouseover",
+    // Отключает вертикальные линии отступов в редакторе
+    "editor.guides.indentation": false,
+    // Не показывает пробелы, табы, перевод строки и т.п. символы в редакторе
+    "editor.renderWhitespace": "selection",
+    // Отключает подсветку активной строки
+    "editor.renderLineHighlight": "gutter",
+    // Отключает автообновления VS Code / VSCodium
+    "update.mode": "manual",
+    // Отключает всплывающие предложения установить расширения
+    "extensions.ignoreRecommendations": false,
+    "git.openRepositoryInParentFolders": "always",
+    "python.analysis.typeCheckingMode": "standard",
+    "git.autofetch": true,
+    "workbench.colorTheme": "Bearded Theme Arc",
+    "security.workspace.trust.untrustedFiles": "open",
+}
